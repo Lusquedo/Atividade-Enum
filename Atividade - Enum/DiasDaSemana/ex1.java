@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Enumeração dos dias da semana
 enum DiaSemana {
     SEGUNDA(1),
     TERCA(2),
@@ -20,7 +19,6 @@ enum DiaSemana {
         return numero;
     }
 
-    // Método para obter o dia da semana pelo número
     public static DiaSemana getDiaPorNumero(int numero) {
         for (DiaSemana dia : DiaSemana.values()) {
             if (dia.getNumero() == numero) {
@@ -31,7 +29,7 @@ enum DiaSemana {
     }
 }
 
-public class ex1 {  // Nome da classe alterado para "ex1"
+public class ex1 {  
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
